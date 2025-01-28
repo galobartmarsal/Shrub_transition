@@ -1,0 +1,9 @@
+1.catalunya.py:
+
+és l'arxiu on s'ajunten les 9 vegueries per obtenir una taula final de tot Catalunya. Dins d'aquest codi s'elaboren tres arxius .CSV de Catalunya
+
+- catalunya.csv: és la'rxiu de tot Catalunya junt, sense tractar. Ajuntant totes les vegueries. Diguessim que són dades crues.
+
+- catalunya_filtered.csv: és l'arxiu en el qual treballarem, ja que ha passat un procés de filtratje, que és el següent: mateixa taula que l'anterior, excloent les caselles buides, convertint els valors negatius a zero, i eliminant la variable hillshade. També he eliminat els valors negatius de TWI. S'han eliminat tots els pixels que han patit algún incendi en els anys d'estudi (incloent els anys entre mig, 87,92,....22, on s'han desenvolupat capes d'usos del sol)
+
+- cat_trans.csv: taula resum de cada pixel on només s'indica quina transició ha patit. Informativa, tot i que aquesta info es pot trobar també als arxius anteriors.

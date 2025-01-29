@@ -82,7 +82,6 @@ componentes = pd.DataFrame(pca.components_, columns=["elevation", "slope", "twi"
 print(componentes)
 
 
-
 # 4.2. Gràfic PCA de punts
 
 plt.figure(figsize=(10, 8))

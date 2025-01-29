@@ -10,6 +10,8 @@
 
 6_pca_points_matollar87: análisis PCA de tots els punts de matollar del 87 i les seves transicions.
 
-7_correlació_2: codi on s'intenta veure si hi ha normalitat i correlacio entre les variables. QQ_plots, test de normalitat D'Agostino-Pearson, correlació Spearman i Kendell, VIF. Tot i això, de momento no fer cas a aquest analisi.
+7_pca_transitions_individual: analisi PCA pero individual per cada transicio
 
-8_Krusk_Wall: test de correlació entre les diferents transicions per cada variable, (kruskall_wallis), tot i això, de moment no fer cas a aquest analisi.
+8_correlació_2: codi on s'intenta veure si hi ha normalitat i correlacio entre les variables. QQ_plots, test de normalitat D'Agostino-Pearson, correlació Spearman i Kendell, VIF. Tot i això, de momento no fer cas a aquest analisi.
+
+9_Krusk_Wall: test de correlació entre les diferents transicions per cada variable, (kruskall_wallis), tot i això, de moment no fer cas a aquest analisi.
